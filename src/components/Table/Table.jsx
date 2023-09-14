@@ -103,7 +103,7 @@ const Table = ({ modal }) => {
                 </td>
                 <td>
                   <div className="flex-horizontal">
-                    <div className={styles["fill-circle"] + ` color-${id + 1}`}>
+                    <div className={styles["fill-circle"] + ` color-${id > 10 ? id % 10 + 1 : id + 1}`}>
                       <label
                         className={
                           user.label.length === 1

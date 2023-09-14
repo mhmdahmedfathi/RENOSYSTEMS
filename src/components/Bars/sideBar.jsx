@@ -168,12 +168,7 @@ const Sidebar = (props) => {
             >
               License Management
             </button>
-            <img
-              className={
-                open4 === true ? "icon rotate small-icons" : "icon small-icons"
-              }
-              src={open4 === true ? upArrow : drop}
-            />{" "}
+            
           </div>
         </div>
       </div>
