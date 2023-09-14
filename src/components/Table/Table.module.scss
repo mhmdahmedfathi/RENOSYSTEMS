@@ -1,0 +1,67 @@
+.table {
+  background-color: white;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+  padding: 1rem;
+  margin: 2rem;
+  overflow-x: auto;
+  border-radius: 2rem;
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+  border: none;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f8fafb;
+  color: gray;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+select {
+  background-color: white;
+  border: none;
+  padding: 1rem;
+}
+// tr:nth-child(even) {
+//   background-color: #dddddd;
+// }
+
+.fill-circle-label-1 {
+  font-size: 18px;
+  transform: translate(100%, 20%);
+}
+
+.fill-circle-label-2 {
+  font-size: 18px;
+  transform: translate(25%, 20%);
+}
+
+.fill-circle-label-3 {
+  font-size: 18px;
+  transform: translateY(20%);
+}
+
+.fill-circle-name {
+  padding: 0.5rem 2rem;
+}
+
+.no-users {
+  padding: 3rem;
+  margin: auto;
+}

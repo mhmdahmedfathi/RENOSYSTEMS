@@ -1,0 +1,56 @@
+@import "../variables";
+
+.dropbtn {
+  color: white;
+  font-size: 16px;
+  border: none;
+  color: $text-color;
+  font-size: $font-size;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-right: 1rem;
+}
+
+.dropdown-active {
+  background-color: $active-button !important;
+}
+
+.button-active {
+  color: white !important;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #1e2642;
+  width: 100%;
+  z-index: 1;
+}
+
+.content {
+  width: 100%;
+  margin: 0;
+}
+
+.active-div {
+  display: block !important;
+}
+
+.active-section {
+  color: #256558;
+  background-color: #2a324c;
+}
+
+.icon {
+  align-items: right;
+  width: 15%;
+}

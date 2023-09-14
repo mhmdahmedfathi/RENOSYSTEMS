@@ -1,0 +1,41 @@
+.navbar-component {
+  padding: 1.5rem;
+}
+
+.merge-icons-img {
+  position: absolute;
+  left: 3rem;
+  top: -5px;
+}
+
+.left-icon {
+  transform: rotate(90deg);
+}
+
+.icons-div {
+  border-right: 1px solid rgb(220, 220, 220);
+  padding: 0 2rem;
+  position: relative;
+  margin: 1rem;
+}
+
+.fill-circle {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #e4effd;
+}
+
+.fill-circle-label {
+  font-size: 20px;
+  transform: translate(50%, 20%);
+}
+
+.circle-name {
+  margin: 0.5rem;
+}
+
+.morning-label {
+  margin: 0.8rem;
+}

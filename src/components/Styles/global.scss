@@ -1,0 +1,98 @@
+@import "./mixins";
+@import "./variables";
+
+.flex-vertical {
+  @include vertical-list;
+  flex-wrap: wrap;
+}
+
+.flex-horizontal {
+  @include horizontal-list;
+  align-items: flex-start;
+}
+.center {
+  text-align: center;
+}
+
+.max-size {
+  width: 100% !important;
+}
+
+.dashboard {
+  padding: 2rem 1rem;
+  gap: 1rem;
+}
+
+.remove-align {
+  align-items: normal;
+}
+
+.padding0 {
+  padding: 0 !important;
+}
+
+.JustifyBetween {
+  justify-content: space-between;
+  align-content: center;
+}
+
+.MuiAlert-standardError,
+.MuiAlert-message {
+  font-size: 18px;
+}
+
+$table-size: 10; // Number of rows and columns in the table
+$colors: #e235eb, #ffff00, #8e8eff, #f5a002, #ff0000, #008000, #0202f9, #ee82ee,
+  #808080, #fcfc06;
+
+@for $i from 1 through $table-size {
+  .color-#{$i} {
+    background-color: nth($colors, $i);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+  }
+}
+
+.MuiBox-root {
+  border-radius: 2rem;
+}
+
+@media (max-width: 1200px) {
+  body {
+    text-align: left;
+  }
+  .small-icons {
+    width: 10% !important;
+  }
+  .JustifyBetween {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 870px) {
+  .fill-circle-label {
+    display: none;
+  }
+  body {
+    text-align: center;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .flex-vertical {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .flex-horizontal {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .small-icons {
+    width: 10% !important;
+  }
+  .JustifyBetween {
+    justify-content: center;
+  }
+}

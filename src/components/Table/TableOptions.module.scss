@@ -1,0 +1,33 @@
+.selected-num {
+  margin: 1rem;
+  margin-bottom: 1rem;
+  border-right: 1px solid black;
+  padding: 0.5rem;
+  padding-right: 2rem;
+  color: #808596;
+}
+
+button {
+  background-color: #e7e9ef;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  color: #808596;
+  font-weight: 800;
+}
+
+.button-active{
+  color:black
+}
+
+.button-link {
+  background-color: transparent;
+  text-decoration: underline;
+  margin: 0;
+  font-size: 22px;
+}
+
+.button-download {
+  margin-right: 3rem;
+}

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Awanzaman;
+  src: url("../src/assets/awanzaman-regular_rNIaR/AwanZaman\ Regular/AwanZaman Regular.ttf");
+}
+
+body {
+  margin: 0;
+  background-color: #f8fafb;
+  font-family: Awanzaman;
+  font-size: 20px;
+}
+
+code {
+  font-family: Awanzaman;
+}
